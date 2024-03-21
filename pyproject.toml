@@ -17,7 +17,7 @@ classifiers = [
     "Topic :: Communications :: Chat",
 ]
 requires-python = ">=3.8"
-dependencies = ["alicebot>=0.8.0"]
+dependencies = ["alicebot>=0.9.0"]
 
 [tool.pdm.dev-dependencies]
 lint = ["ruff"]
@@ -30,6 +30,9 @@ Changelog = "https://docs.alicebot.dev/changelog.html"                     # TOD
 
 [tool.ruff]
 line-length = 88
+target-version = "py38"
+
+[tool.ruff.lint]
 select = ["ALL"]
 ignore = [
     "D",      # pydocstyle
@@ -47,12 +50,11 @@ ignore = [
     "RUF002", # Docstring contains ambiguous unicode character string
     "RUF003", # Comment contains ambiguous unicode character string
 ]
-target-version = "py38"
 
-[tool.ruff.pydocstyle]
+[tool.ruff.lint.pydocstyle]
 convention = "google"
 
-[tool.ruff.pyupgrade]
+[tool.ruff.lint.pyupgrade]
 keep-runtime-typing = true
 
 [tool.pyright]
