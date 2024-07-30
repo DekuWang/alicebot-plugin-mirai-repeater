@@ -1,11 +1,11 @@
 [project]
-name = "alicebot-plugin-template" # TODO
-version = "0.1.0" # TODO
-description = "AliceBot Plugin Template." # TODO
-authors = [{ name = "AliceBot", email = "concontact@alicebot.dev" }] # TODO
-license = { text = "MIT" } # TODO
+name = "alicebot-plugin-mirai-repeater"
+version = "0.0.1"
+description = "using mirai adapter, will repeat group member's message randomly"
+authors = [{ name = "DekuWang", email = "2873450572@qq.com" }]
+license = { text = "MIT" }
 readme = "README.md"
-keywords = ["bot", "chatbot", "alicebot", "tag1", "tag2"] # TODO
+keywords = ["bot", "chatbot", "alicebot", "mirai"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Framework :: AsyncIO",
@@ -17,7 +17,10 @@ classifiers = [
     "Topic :: Communications :: Chat",
 ]
 requires-python = ">=3.8"
-dependencies = ["alicebot>=0.10.0"]
+dependencies = [
+    "alicebot>=0.10.0",
+    "alicebot-adapter-mirai>=0.10.0",
+]
 
 [tool.pdm.dev-dependencies]
 lint = ["ruff"]
