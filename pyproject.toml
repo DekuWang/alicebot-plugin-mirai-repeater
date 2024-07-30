@@ -26,10 +26,10 @@ dependencies = [
 lint = ["ruff"]
 
 [project.urls]
-Homepage = "https://docs.alicebot.dev/"                                    # TODO
-Documentation = "https://docs.alicebot.dev/"                               # TODO
-Repository = "https://github.com/AliceBotProject/alicebot-plugin-template" # TODO
-Changelog = "https://docs.alicebot.dev/changelog.html"                     # TODO
+Homepage = "https://github.com/DekuWang/alicebot-plugin-mirai-repeater"
+Documentation = ""
+Repository = "https://github.com/DekuWang/alicebot-plugin-mirai-repeater"
+Changelog = ""
 
 [tool.ruff]
 line-length = 88

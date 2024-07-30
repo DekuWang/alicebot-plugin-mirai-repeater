@@ -1,8 +1,9 @@
-<div align="center">
-  <a href="https://docs.alicebot.dev/"><img src="https://raw.githubusercontent.com/AliceBotProject/alicebot/master/docs/public/logo.png" width="200" height="200" alt="logo"></a>
+# AliceBot-Plugin-Mirai-Repeater
 
-# AliceBot-Plugin-Template
+**AliceBot Mirai框架用复读机**
 
-**AliceBot 插件模板**
+可以用来复读群友的话
+
+
 
 </div>
