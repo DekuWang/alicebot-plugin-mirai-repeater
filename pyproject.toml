@@ -1,6 +1,6 @@
 [project]
 name = "alicebot-plugin-mirai-repeater"
-version = "0.0.1"
+version = "0.0.2"
 description = "using mirai adapter, will repeat group member's message randomly"
 authors = [{ name = "DekuWang", email = "2873450572@qq.com" }]
 license = { text = "AGPL-3.0" }
@@ -18,7 +18,7 @@ classifiers = [
 ]
 requires-python = ">=3.8"
 dependencies = [
-    "alicebot>=0.10.0",
+    "alicebot[all]>=0.10.0",
     "alicebot-adapter-mirai>=0.10.0",
 ]
 
@@ -27,9 +27,7 @@ lint = ["ruff"]
 
 [project.urls]
 Homepage = "https://github.com/DekuWang/alicebot-plugin-mirai-repeater"
-Documentation = ""
 Repository = "https://github.com/DekuWang/alicebot-plugin-mirai-repeater"
-Changelog = ""
 
 [tool.ruff]
 line-length = 88
