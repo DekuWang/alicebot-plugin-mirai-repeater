@@ -5,11 +5,9 @@ from typing import Dict, List, Optional
 # Third party modules
 from alicebot import Plugin, ConfigModel
 from alicebot.adapter.mirai.event import MessageEvent
+# Project Module
+from Config import Config
 
-class Config(ConfigModel):
-    __config_name__:str = "mirai_repeater"
-    repeat_len = 3
-    message_record: Dict[int, List[Optional[str]]] = {}
 
 class Repeater(Plugin[MessageEvent, int, Config], config = Config):
     priority = 2
