@@ -1,6 +1,6 @@
 [project]
 name = "alicebot-plugin-mirai-repeater"
-version = "0.0.3"
+version = "0.0.4"
 description = "using mirai adapter, will repeat group member's message randomly"
 authors = [{ name = "DekuWang", email = "2873450572@qq.com" }]
 license = { text = "AGPL-3.0" }
